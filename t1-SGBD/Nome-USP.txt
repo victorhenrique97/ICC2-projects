@@ -1,0 +1,14 @@
+Nome: Victor Henrique de Souza Rodrigues
+Número USP: 9791027
+
+Principais erros notados por mim no meu código:
+
+- Minha busca binária retorna apenas 1 valor,
+ou seja para casos em que há 2 valores campos iguais ele só
+retorna o que encontrar primeiro.
+
+- Estou armazenando tanto o char quanto o char[???] com as 
+aspas, não sei se é um erro, mas como armazeno assim, mesmo
+o meu char simples aloca 4 bytes de memória.
+
+
