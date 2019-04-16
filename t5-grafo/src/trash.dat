@@ -1,0 +1,20 @@
+printf("VERTICES %d\n", vertex_number-1);
+	for(int i=1; i<vertex_number; i++)
+		printf("%.f %.f %c %c\n", vertex[i]->x, vertex[i]->y, vertex[i]->chamber, vertex[i]->exit);
+	
+	printf("SEGMENTOS %d\n", segment_number);
+	for(int i=0; i<segment_number; i++)
+		printf("%d %d %c %.2f\n", segment[i]->begin_index, segment[i]->end_index, segment[i]->isvalid, segment[i]->lenght);
+
+
+printf("CAMINHO\n");
+	for(int i=0; i<counter; i++)
+		printf("%d ", solution->track[i]);
+	printf("\nCOUNTER %d", solution->vertex_passed_numbers);
+	printf("\n");
+
+printf("%f\n", solution->distance);
+
+for(int i=0; i<counter; i++)
+		printf("%d ", solution->chamber_index[i]);
+	printf("\n");
